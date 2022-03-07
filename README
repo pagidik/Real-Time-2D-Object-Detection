@@ -1,0 +1,11 @@
+
+Travel Time = 2 days.
+
+Real Time 2D Object Detection 
+
+Wiki Khoury link : https://wiki.khoury.northeastern.edu/display/~kishore005/Real+Time+2D+Object+Detection
+
+Compile using cmake file.
+1. cmake .
+2. make
+3. ./CV_PROJECT_3

@@ -1,17 +1,6 @@
 # Real Time 2D Object Detection 
 
-The scope of this project is to design a filter from scratch to run on real-time videos. In this project, I have implemented the following: 
-
-1. Converted live video into grayscale.
-2. Blurred the image using Gaussian 5x5 blur.
-3. Applied Sobel filter in a separable form to reduce computational costs
-4. Computed the gradient magnitude from the Sobel filter.
-5. Reduced the number of colors in the image using blur quantification.
-6. Produced a cartoon effect on the live video by darkening the edges using a certain threshold value.
-7. Used additional filters to convert the video into negative.
-8. Defined a function to increase and decrease the brightness with a keypress.
-9. Let the user save short video sequences with the filters.
-10. A negative image effect will be visible on a real-time video. 
+The objective of this project was to develop a real time 2D object recognition system, which can recognise a set of objects in a rotation, scale and translation invariant manner. This was achieved by a series of steps, beginning with converting the image or frame into a binary image using thresholding and filling in holes and removing unwanted noise, then finding the required region containing the object. This was followed by computing feature vectors of the objects and storing them in a database to be used as a training model. Then for the final step, it was required to develop a recognition system with 2 different classifiers. The final model is able to classify 15 objects in real time and also has the capability to detect unknown objects and gives the user the capability to train the model for the unknown object. 
 
 Wiki Khoury link : https://wiki.khoury.northeastern.edu/display/~kishore005/Real+Time+2D+Object+Detection
 
